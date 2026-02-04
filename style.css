@@ -1,0 +1,168 @@
+* {
+  margin: 0;
+  padding: 0px;
+  box-sizing: border-box;
+  font-family: Inter, Arial, sans-serif;
+  font-size: 0.9rem;
+}
+
+
+body{
+    background-color: #282106;
+}
+
+.site-header {
+  width: 100%;
+  padding: 2px 150px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  border-bottom: 1px solid rgba(255, 255, 255, 0.08);
+}
+
+.nav{
+    display: flex;
+    gap: 24px;
+}
+
+.nav a {
+    color: #ffffff;
+    text-decoration: none;
+       }
+ 
+
+.header-actions {
+     display: flex;
+     gap: 16px;
+}
+
+.header-actions a {
+     text-decoration: none;
+    
+ }
+ 
+ .login {
+    border: 1px solid #ffffff;
+    background-color: #14120b;
+    color: #ffffff;
+    padding: 4px 12px 4px 12px;
+    border-radius: 40px;
+    font-size: 0.9rem;
+
+ }
+
+ .cta{
+    border-radius: 1px;
+    border-color: #ffffff;
+    background-color: #ffffff;
+    color: #14120b;
+    padding: 4px 12px 4px 12px;
+    border-radius: 40px;
+    font-size: 0.9rem
+
+ }
+
+
+ .section-1{
+    display: flex;
+    flex-direction: column;
+    color: #ffffff;
+    padding: 100px 150px;
+ }
+
+
+.heading{
+    margin-bottom: 24px;
+    font-size: 1.6rem;
+    line-height: 1.8rem;
+    font-weight: 400;
+}
+
+.download{
+    margin-bottom: 24px;
+    width: 14rem;
+    height: 3rem;
+    border-radius: 4rem;
+    font-size: 1rem;
+    margin-bottom: 4rem;
+}
+
+.testimonial{
+     padding: 60px 40px;
+     text-align: center;
+
+}
+.trusted-text{
+    color: #ffffff;
+    margin-bottom: 2rem;
+}
+
+.logo-row {
+  display: flex;
+  gap: 8px;
+  justify-content: center;
+  flex-wrap: wrap;
+}
+
+.logo-card {
+  width: 10rem;
+  height: 6rem;
+  background: #1b1913;
+  border-radius: 8px;
+
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.logo-card img {
+  max-width: 50%;
+  max-height: 50%;
+  object-fit: contain;
+}
+
+
+.agent-section{
+    display: flex;
+    justify-content: center;
+    
+    
+
+}
+
+
+.agent-container{
+    display: flex;
+    background: #1b1913;
+    border-radius: 12px;
+    margin-bottom: 2rem;       
+}
+
+.agent{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.agent p{
+    color: #ffffff;
+    font-size: 1.4rem;
+    line-height: 2rem;
+    width: 360px;
+    margin-left: 16px;
+         
+}
+
+.agent a {
+  display: inline-block;
+  margin-top: 20px;
+  margin-left: 16px;
+  color: #ff7a18;
+  text-decoration: none;
+  font-weight: 500;
+}
+
+.agent-visual{
+
+    padding: 16px;
+}
