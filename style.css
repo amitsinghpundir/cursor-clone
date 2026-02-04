@@ -166,3 +166,70 @@ body{
 
     padding: 16px;
 }
+
+
+.testimonials {
+  padding: 100px 0;
+  text-align: center;
+}
+
+.testimonials h2 {
+  font-size: 36px;
+  margin-bottom: 30px;
+  color: white; 
+  font-weight: 400;
+  font-size: 2rem;
+}
+
+.testimonial-grid {
+  max-width: 1200px;
+  margin: 0 auto;
+  padding: 0 40px;
+
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 24px;
+}
+
+.card {
+  background: rgba(255,255,255,0.03);
+  border: 1px solid rgba(255,255,255,0.08);
+  border-radius: 12px;
+  padding: 24px;
+
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+
+  text-align: left;
+}
+
+.card p {
+  font-size: 15px;
+  line-height: 1.6;
+  color: rgba(255,255,255,0.9);
+}
+
+.author {
+  display: flex;
+  align-items: center;
+  gap: 12px;
+  margin-top: 20px;
+  color: #ffffff;
+}
+
+.author img {
+  width: 36px;
+  height: 36px;
+  border-radius: 50%;
+}
+
+.author strong {
+  display: block;
+  font-size: 14px;
+}
+
+.author span {
+  font-size: 13px;
+  color: rgba(255,255,255,0.6);
+}
